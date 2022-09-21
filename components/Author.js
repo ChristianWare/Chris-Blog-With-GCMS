@@ -1,7 +1,7 @@
-const Author = () => {
+const Author = ({ author }) => {
   return (
     <div>
-      <h1>Author</h1>
+      <h3 className='text-white mt-4 mb-4 text-xl font-bold'>{author.name}</h3>
     </div>
   );
 };
